@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    height: 1000px;
+    background-color: gray;
+}
+
+/* Styling Navbar */
+nav{
+    display: flex;
+    height: 7vh;
+    background: #f4f3f3;
+}
+
+nav div{
+    display: flex;
+    flex:50%;
+    align-items: center;
+    
+}
+
+nav div .left-side{
+    padding-left: 90px;
+   
+}
+
+nav div .right-side{
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    
+}
+
+nav ul{
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#000000;
+}
+
+nav .left-side li a:hover{
+    color: #ec4d37;
+}
+
+nav ul li a.list-active{
+    color: #ec4d37;
+    font-weight: 700;
+}
+
+nav .right-side a{
+    padding:5px 10px;
+    font-size: 16px;
+    background-color: #ec4d37;
+    border:none;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+/* Styling Project */
+
+.content-project{
+    margin:auto;
+    margin-top: 70px;
+    height: 800px;
+    width: 50%;
+    background-color:whitesmoke;
+    text-align: center;
+}
+
+
+.content-project .technology .technology-check{
+  position: absolute;
+  top:490px;
+  left:366px;
+}
+
+
+
+
+.content-project .date-choose .table-1{
+   margin:auto;
+   width:50px;
+   padding:0px;
+   position: relative;
+}
+
+input{
+    background-color: aliceblue;
+    width:300px;
+    height:30px;
+}
+
+.content-project label{
+    font-size: 18px;
+   
+}
+
+.content-project .project .project-name label{
+    position: absolute;
+    left:530px;
+   
+}
+
+.content-project .date-choose .start-date label{
+    position: absolute;
+    left:7px;
+   
+}
+
+.content-project .date-choose .end-date label{
+    position: absolute;
+    left:154px;
+   
+}
+
+.content-project .heading-judul h2{
+    margin-bottom: 30px;
+    
+}
+
+.content-project .technology .it{
+    position: absolute;
+    top:490px;
+    left:530px;
+    bottom: 10px;
+
+    
+}
+
+.content-project textarea{
+    width:300px;
+   
+}
+
+.content-project .description label{
+    position:absolute;
+    left:530px;
+   
+}
+
+.choose-file-img{
+    width:300px;
+    /* background-color: #ec4d37; */
+    position: absolute;
+    top:610px;
+    left:430px;
+    right:200px;
+}
+
+
+
+.choose-file-img .input-project-image-group {
+    background-color:white;
+    width:300px;
+    height: 40px;
+    position: absolute;
+    left:100px;
+    top:40px;
+}
+.choose-file-img .input-project-image-group p{
+    text-align: left;
+}
+.choose-file-img .input-project-image-group img{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
+.button-type button{
+    position: absolute;
+    top:700px;
+    left:750px;
+    padding:10px 20px;
+    border: none;
+    border-radius: 16px  ;
+    background-color:black;
+    color: white;
+}
+
+
+/* Part last Content */
+.project-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.project-list .project-list-item{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+
+    
+}
+.project-list .project-list-item .card-list-item{ 
+   width:400px;
+   border: 1px solid #00000033;
+  border-radius: 16px;
+  padding: 15px 15px 25px 15px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.project-list .project-list-item .card-list-item img{ 
+    width:100%;
+ }
+
+ .project-list .project-list-item .card-list-item .button-group{
+    display: flex;
+    justify-content:center;
+    width:200px;
+    margin: auto;
+    
+ }
+
+ .project-list .project-list-item .time-project-list a{
+    color: #000000;
+    text-decoration: none;
+ }
+
+.project-list .media-sosial-list-item{
+    width:120px;
+    /* background-color: #ec4d37; */
+    display: flex;
+    margin-top: 10px;
+    margin-left:2px;
+    margin-bottom: 5px;
+    flex-direction: row;
+}
+
+.project-list .media-sosial-list-item img{
+   width:10px;
+   height:20px;
+  
+}
+
+.project-list .media-sosial-list-item .img-1{
+    margin-right: 20px;
+   
+ }
+
+ .project-list .media-sosial-list-item .img-2{
+    margin-right: 20px;
+   
+ }
+
+ .project-list .media-sosial-list-item .img-3{
+    margin-right: 20px;
+   
+ }
+
+
+
+ .project-list .project-list-item .time-project-list a:hover{
+    color:green;
+    text-decoration: none;
+ }
+
+
+ .edit-btn{
+    padding:6px 40px;
+    background-color: black;
+    border-radius: 12px;
+    margin-right: 10px;
+    color: antiquewhite;
+ }
+
+ .delete-btn{
+    padding:6px 30px;
+    background-color: blueviolet;
+    border-radius: 12px;
+    color: antiquewhite;
+    background-color: #000000;
+
+ }
+
+
+ 

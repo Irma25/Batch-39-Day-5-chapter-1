@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    height: 900px;
+}
+
+nav{
+    display: flex;
+    height: 7vh;
+    background: #f4f3f3;
+}
+
+nav div{
+    display: flex;
+    flex:50%;
+    align-items: center;
+    
+}
+
+nav div .left-side{
+    padding-left: 90px;
+   
+}
+
+nav div .right-side{
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    
+}
+
+nav ul{
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#000000;
+}
+
+nav .left-side li a:hover{
+    color: #ec4d37;
+}
+
+nav ul li a.list-active{
+    color: #ec4d37;
+    font-weight: 700;
+}
+
+nav .right-side a{
+    padding:5px 10px;
+    font-size: 16px;
+    background-color: #ec4d37;
+    border:none;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+/* Styling Hero */
+.container{
+    display:flex;
+    height:93vh;
+}
+
+.container .left-hero{
+    flex:60%;
+    display:flex;
+    position: relative;
+}
+
+.container .left-hero .content{
+    position:absolute;
+    top:100px;
+    left:40px;
+    right:20px;
+
+}
+
+.container .left-hero .content h1{
+   margin-bottom: 20px;
+}
+
+.container .left-hero .content p{
+    text-align: justify;
+    color: #959595;
+    /* margin:20px; */
+}
+
+.container .left-hero .info-contact{
+    width:100px;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    right:80px;
+}
+
+.container .left-hero .info-contact a{
+   color:#000000;
+   text-decoration: none;
+}
+
+.container .left-hero .info-contact table{
+   width:260px;
+   margin-left: 30px;
+   padding: 3px;
+
+    
+}
+
+.container .left-hero .media-sosial{
+    width:100px;
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    right:80px;
+}
+
+.container .left-hero .media-sosial table{
+    width:210px;
+    margin-left: 30px;
+    margin-right: 0px;
+    padding: 3px;  
+ }
+
+ .container .left-hero .media-sosial table img{
+    width:30px;
+     
+ }
+
+.container .left-hero .info-contact table img{
+    width:20px;
+     
+ }
+
+
+.info-contact button{
+    width:90px;
+    height: 30px;
+    border-radius: 13px;
+    cursor: pointer;
+    
+}
+
+img{
+    width:100%;
+}
+
+/* .container .left-hero .info-contact span{
+    flex: 1;
+    margin-right: 10px;
+}  */
+
+/* .container .left-hero .media-sosial{
+    width:150px;
+    display:flex;
+    flex-direction: row;
+    align-items:flex-end;
+   
+}
+
+.container .left-hero .media-sosial img{
+    width:100%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.container .right-hero{
+    display: flex;
+    flex:40%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container .right-hero .card{
+    width:350px;
+    border: 1px solid #00000033;
+    border-radius: 16px;
+    padding: 15px 25px 15px;
+    box-shadow: 0px 0px 20px #00000040;
+    margin-right: 80px;
+}
+
+.card .image img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card .header h1{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.card .content p{
+    text-align: center;
+    color: #000000;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+

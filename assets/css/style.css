@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+/* Styling Navbar */
+nav{
+    display: flex;
+    height: 7vh;
+    background: #f4f3f3;
+}
+
+nav div{
+    display: flex;
+    flex:50%;
+    align-items: center;
+    
+}
+
+nav div .left-side{
+    padding-left: 90px;
+   
+}
+
+nav div .right-side{
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    
+}
+
+nav ul{
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#000000;
+}
+
+nav .left-side li a:hover{
+    color: #ec4d37;
+}
+
+nav ul li a.list-active{
+    color: #ec4d37;
+    font-weight: 700;
+}
+
+nav .right-side a{
+    padding:5px 10px;
+    font-size: 16px;
+    background-color: #ec4d37;
+    border:none;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+
+/* Styling Form */
+
+.container{
+    height:92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.container form label{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+
+select{
+    width:270px;
+}
+.container input,select,textarea{
+    padding: 7px 50px;
+    margin-top: 7px;
+    
+}
+
+.container form button{
+    padding:5px 11px;
+    border-radius: 16px;
+    cursor: pointer;
+    border: none;
+    background: orangered;
+    font-size: 16px;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+button{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 25px;
+    
+}
+/* Styling Hero */

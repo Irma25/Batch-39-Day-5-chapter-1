@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        .title{
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .content{
+            margin-bottom: 20px;
+        }
+
+        form{
+            width:400px;
+            border: 2px solid red;
+            margin: auto;
+           
+        }
+
+        header {
+            text-align: center;
+        }
+        .input-image-column{
+            border: 1px solid;
+        }
+        .container{
+            margin: auto;
+            width: 200px;
+            
+        }
+
+        .button-click{
+            margin-bottom: 20px;
+        }
+        
+        .wrapper {
+            width:200px;
+            height: 300px;
+            /* border: 1px solid palegreen; */
+        }
+
+        .image-card{
+            width:100px;
+            height:50px;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .content-two{
+            margin-top: 200px;
+        }
+    </style>
+<body>
+
+    <header>
+        <h1>Latihan</h1>
+    </header>
+
+    <section style="display:flex; justify-content: center; align-items: center; flex-direction: row;">
+        <form onsubmit="addData(event)">
+            <div class="container">
+            <div class="title">
+                <label for="input-title">Title</label><br>
+                <input type="text" id="input-title">    
+            </div>
+            <div class="content">
+                <label for="content">Deskripi</label><br>
+                <textarea id="content"></textarea>
+            </div>
+            <div class="image">
+                <label for="input-image">Upload Image</label><br>
+                <input type="file"  id="input-image" class="input-image-column">
+            </div><br>
+            
+            <div class="button-click">
+                <button>Submit</button>
+            </div>
+            </div>
+        </form>
+    </section>
+     
+    <hr>
+    <div class="container" id="container">
+        <div class="wrapper">
+            <!-- <div class="content" id="content">
+                <h2 id="input-title">Dumbways</h1>
+            </div>
+            
+            <div class="image-card">
+                <img src="" alt="">
+            </div>
+
+            <div id="content" class ="content-two">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, vero.</p>
+            </div> -->
+        </div>  
+    </div>
+    
+
+    <script src="notes.js"></script>
+</body>
+</html>

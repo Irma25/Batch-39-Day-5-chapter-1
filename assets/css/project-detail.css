@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    height: 1000px;
+    background-color: grey;
+    
+}
+
+/* Styling Navbar */
+nav{
+    display: flex;
+    height: 7vh;
+    background: #f4f3f3;
+}
+
+nav div{
+    display: flex;
+    flex:50%;
+    align-items: center;
+    
+}
+
+nav div .left-side{
+    padding-left: 90px;
+   
+}
+
+nav div .right-side{
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+    
+}
+
+nav ul{
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#000000;
+}
+
+nav .left-side li a:hover{
+    color: #ec4d37;
+}
+
+nav ul li a.list-active{
+    color: #ec4d37;
+    font-weight: 700;
+}
+
+nav .right-side a{
+    padding:5px 10px;
+    font-size: 16px;
+    background-color: #ec4d37;
+    border:none;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+/* Project Detail */
+.header h1{
+    text-align: center;
+    font-size: 2rem;;
+}
+
+.project-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.project-detail .project-detail-content .image-project-detail{
+    flex-grow: 3;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color:aqua; */
+    align-items: stretch;
+}
+
+.project-detail .project-detail-content .image-project-detail img{
+   width:600px;
+   height: 600px;
+   padding-left: 30px;
+}
+
+.project-detail .project-detail-content .right-side-project-detail{
+    flex-grow: 7;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ec4d37;
+    align-items: stretch;
+}
+
+.project-detail .project-detail-content .right-side-project-detail .img-duration .date-upload{
+   color:white;
+   position: absolute;
+   top:-5px;
+   left: 60px;
+}
+
+.project-detail .project-detail-content .right-side-project-detail .duration{
+   position: absolute;
+   top:60px;
+   right:590px;
+}
+
+.project-detail .project-detail-content .right-side-project-detail .img-duration{
+    width:30px;
+    height:30px;
+    position: absolute;
+    top:100px;
+    left:700px;
+    right:100px;
+}
+
+.project-detail .project-detail-content .right-side-project-detail .img-duration img{
+    width:100%;
+    
+    
+}
+
+.project-detail .project-detail-content .right-side-project-detail .month-duration{
+    width:30px;
+    height:30px;
+    position: absolute;
+    top:150px;
+    right:615px;
+}
+
+.project-detail .project-detail-content .right-side-project-detail .month-duration img{
+    width:30px;
+    height:30px;
+}
+
+.project-detail .project-detail-content .right-side-project-detail .month-duration .month-upload{
+    color:white;
+    position: absolute;
+    top:-5px;
+    left: 60px;
+ }
+
+ .project-detail .technology-project{
+    width:300px;
+    /* background-color: #ec4d37; */
+    display: flex;
+    flex-direction: row;
+    height:200px;
+    position: absolute;
+    top:220px;
+    left:681px;
+    margin-right: 20px;
+    
+ }
+
+ .project-detail .technology-project .column-1{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .project-detail .technology-project .column-2{
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ .project-detail .technology-project .technology1 img{
+   width:32px;
+   height: 32px;
+   margin-right: 120px;
+   margin-left: 20px;
+  
+ }
+
+ .project-detail .technology-project .technology1 .react-js-1{
+    position: absolute;
+    top:6px;
+    left:70px;
+ }
+
+ .project-detail .technology-project .technology2 img{
+    width:32px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .project-detail .technology-project .technology2 .node-js-2{
+    position: absolute;
+    top:60px;
+    left:70px;
+    
+  }
+  .project-detail .technology-project .technology3 img{
+    width:32px;
+    height:27px;
+    
+  }
+
+  .project-detail .technology-project .technology3 .javascript-3{
+    position: absolute;
+    top:6px;
+    left:210px;
+  }
+
+  .project-detail .technology-project .technology4 img{
+    width:32px;
+    height:27px;
+    margin-top: 23px;
+  }
+
+  .project-detail .technology-project .technology4 .socket-io-4{
+    position: absolute;
+    top:60px;
+    left:210px;
+  }

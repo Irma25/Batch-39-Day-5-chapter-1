@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3 Batch 39 Day 3</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/form.js"></script>
+</head>
+<body>
+    
+    <!-- ini adalah navbar -->
+        <nav>
+            <div>
+                <div class="left-side">
+                    <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="myproject.html">My Project</a></li>
+                    </ul>
+                </div>
+                <div class="right-side">
+                    <ul>
+                        <li> <a href="form.html">Contact Me</a></li>
+                    </ul>         
+                </div>
+            </div>
+        </nav>
+
+        <!-- ini adalah form -->
+         <div class="container">
+        <form class="contact-me">
+            <div>
+                <label for="name">Nama</label><br>
+                <input type="text" id="name" autocomplete="off" required>
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" autocomplete="off" required>
+            </div>
+            <div>
+                <label for="phonenumber">Phone Number</label><br>
+                <input type="telp" id="phonenumber" autocomplete="off" required>
+            </div>
+            <div>
+                <label for="subject">Subject</label><br>
+                <select name="subject" id="subject" autocomplete="off" required >
+                    <option value="Choose Subject" required></option>
+                    <option value="Let's Talk">Let's Talk</option>
+                    <option value="Let's Collaboration">Let's Collaboration</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Your Messages</label><br>
+                <textarea name="" id="message"  rows="8" autocomplete="off" required></textarea>
+            </div>
+            <div>
+                <button type="button" onclick="submitForm()">Submit</button>
+            </div>
+        </form>
+        </div>
+
+        
+    
+</body>
+</html>
